@@ -26,7 +26,7 @@ const router = createBrowserRouter([
 
 const App = () => {
     return (
-        <div className="bg-cyan-200 w-dvw h-dvh flex flex-col justify-center items-center align-middle" >
+        <div className="bg-cyan-100 w-dvw h-dvh flex flex-col justify-center items-center align-middle" >
             <Header />
             <div className="container flex flex-col flex-1 justify-center items-center align-middle">
                 <RouterProvider router={router} />
